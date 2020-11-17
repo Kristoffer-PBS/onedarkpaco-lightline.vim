@@ -46,9 +46,16 @@ let s:p.normal.right = [ [ s:black, s:green, 'bold' ], [ s:text, s:gray ] ]
 let s:p.inactive.left = [ [ s:text, s:text ], [ s:text, s:text ] ]
 let s:p.inactive.middle = [ [ s:text, s:black ] ]
 let s:p.inactive.right = [ [ s:text, s:text ], [ s:blue, s:blue ] ]
-let s:p.insert.left = [ [ s:black, s:blue  ], [ s:white, s:gray ] ]
-let s:p.replace.left = [ [ s:text, s:red ] , [ s:white, s:gray ]  ]
+
+let s:p.insert.left = [ [ s:black, s:blue  ], [ s:text, s:gray ] ]
+let s:p.insert.right = [ [ s:black, s:blue ], [ s:text, s:gray ] ]
+
+let s:p.replace.left = [ [ s:black, s:red ] , [ s:white, s:gray ]  ]
+let s:p.replace.right = [ [ s:black, s:red ], [ s:text, s:gray ] ]
+
 let s:p.visual.left = [ [ s:black, s:purple ], [ s:white, s:gray ] ]
+let s:p.visual.right = [ [ s:black, s:purple ], [ s:text, s:gray ] ]
+
 let s:p.tabline.tabsel = [ [ s:black, s:orange ] ]
 let s:p.tabline.left = [ [ s:text, s:darkgray ] ]
 let s:p.tabline.middle = [ [ s:text, s:text ] ]
