@@ -30,14 +30,19 @@ let s:orange    = '#d19a66'
 let s:purple    = '#e387ff'
 let s:red       = '#ff6e7a'
 let s:yellow    = '#ffd587'
+let s:bar       = '#282c34'
 
 
 
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 
-let s:p.normal.left = [ [ s:text, s:darkgray           ], [ s:text, s:gray     ] ]
-let s:p.normal.middle = [ [ s:green, s:black             ] ]
-let s:p.normal.right = [ [ s:text, s:darkgray, 'bold' ], [ s:text, s:gray ] ]
+" the first parameter in the list is the foreground color, and the second is the background color
+let s:p.normal.left = [ [ s:black, s:green           ], [ s:text, s:gray     ] ]
+
+let s:p.normal.middle = [ [ s:text, s:bar             ] ]
+
+let s:p.normal.right = [ [ s:black, s:green, 'bold' ], [ s:text, s:gray ] ]
+
 let s:p.inactive.left = [ [ s:text, s:text ], [ s:text, s:text ] ]
 let s:p.inactive.middle = [ [ s:text, s:black ] ]
 let s:p.inactive.right = [ [ s:text, s:text ], [ s:blue, s:blue ] ]
