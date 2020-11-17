@@ -35,7 +35,6 @@ let s:yellow    = '#ffd587'
 
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 
-" NORMAL mode
 let s:p.normal.left = [ [ s:text, s:darkgray           ], [ s:text, s:gray     ] ]
 let s:p.normal.middle = [ [ s:green, s:black             ] ]
 let s:p.normal.right = [ [ s:text, s:darkgray, 'bold' ], [ s:text, s:gray ] ]
@@ -47,20 +46,15 @@ let s:p.inactive.left = [ [ s:text, s:text ], [ s:text, s:text ] ]
 let s:p.inactive.middle = [ [ s:text, s:black ] ]
 let s:p.inactive.right = [ [ s:text, s:text ], [ s:blue, s:blue ] ]
 
-" INSERT mode
 let s:p.insert.left = [ [ s:black, s:blue  ], [ s:white, s:gray ] ]
 
-" REPLACE mode
 let s:p.replace.left = [ [ s:text, s:red ] , [ s:white, s:gray ]  ]
 
-" VISUAL mode 
 let s:p.visual.left = [ [ s:black, s:purple ], [ s:white, s:gray ] ]
 
-let s:p.normal.other = [ [ s:black, s:text ] ]
 
-" tabline
 let s:p.tabline.left = [ [ s:text, s:darkgray ] ]
-let s:p.tabline.tabsel = [ [ s:black, s:orange, 'bold' ] ]
+let s:p.tabline.tabsel = [ [ s:black, s:orange ] ]
 let s:p.tabline.right = [ s:text, s:darkgray ]
 let s:p.tabline.middle = [ s:text, s:text ]
 
