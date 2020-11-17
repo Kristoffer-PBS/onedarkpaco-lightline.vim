@@ -26,7 +26,7 @@ let s:p.normal.middle     = [ [ s:green, s:black             ] ]
 let s:p.normal.error      = [ [ s:red, s:darkgray, 'bold'    ] ]
 let s:p.normal.warning    = [ [ s:yellow, s:darkgray, 'bold' ] ]
 
-" let s:p.normal.right = [ [ s:text, s:darkgray, 'bold' ], [ s:text, s:gray ] ]
+let s:p.normal.right = [ [ s:text, s:darkgray, 'bold' ], [ s:text, s:gray ] ]
 
 " INSERT mode
 let s:p.insert.left = [ [ s:black, s:blue  ], [ s:white, s:gray ] ]
