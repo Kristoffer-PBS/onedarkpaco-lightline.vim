@@ -56,7 +56,7 @@ let s:p.replace.right = [ [ s:black, s:red ], [ s:text, s:gray ] ]
 let s:p.visual.left = [ [ s:black, s:purple ], [ s:white, s:gray ] ]
 let s:p.visual.right = [ [ s:black, s:purple ], [ s:text, s:gray ] ]
 
-let s:p.tabline.tabsel = [ [ s:text, s:visual ] ]
+let s:p.tabline.tabsel = [ [ s:text, s:purple ] ]
 let s:p.tabline.left = [ [ s:text, s:darkgray ] ]
 let s:p.tabline.middle = [ [ s:text, s:gray  ] ]
 let s:p.tabline.right =  [ [ s:text, s:darkgray,  ] ]
