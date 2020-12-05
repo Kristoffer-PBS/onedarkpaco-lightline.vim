@@ -43,9 +43,9 @@ let s:p.normal.middle = [ [ s:text, s:bar             ] ]
 
 let s:p.normal.right = [ [ s:black, s:green, 'bold' ], [ s:text, s:gray ] ]
 
-let s:p.inactive.left = [ [ s:text, s:text ], [ s:text, s:text ] ]
-let s:p.inactive.middle = [ [ s:text, s:black ] ]
-let s:p.inactive.right = [ [ s:text, s:text ], [ s:blue, s:blue ] ]
+let s:p.inactive.left = [ [ s:bar, s:bar ], [ s:bar, s:bar ] ]
+let s:p.inactive.middle = [ [ s:bar, s:bar ] ]
+let s:p.inactive.right = [ [ s:bar, s:bar ], [ s:bar, s:bar ] ]
 
 let s:p.insert.left = [ [ s:black, s:blue  ], [ s:text, s:gray ] ]
 let s:p.insert.right = [ [ s:black, s:blue ], [ s:text, s:gray ] ]
@@ -58,20 +58,12 @@ let s:p.visual.right = [ [ s:black, s:purple ], [ s:text, s:gray ] ]
 
 let s:p.tabline.tabsel = [ [ s:text, s:purple ] ]
 let s:p.tabline.left = [ [ s:text, s:darkgray ] ]
-let s:p.tabline.middle = [ [ s:text, s:gray  ] ]
+let s:p.tabline.middle = [ [ s:text, s:darkgray  ] ]
 let s:p.tabline.right =  [ [ s:text, s:darkgray,  ] ]
 let s:p.normal.error = [ [ s:red, s:darkgray     ] ]
 let s:p.normal.warning = [ [ s:yellow, s:darkgray ] ]
 
 let g:lightline#colorscheme#onedarkpaco#palette = lightline#colorscheme#fill(s:p)
-
-
-
-
-
-
-
-
 
 " let g:lightline#colorscheme#onedarkpaco#palette = lightline#colorscheme#flatten(s:p)
 " let g:lightline#colorscheme#onedarkpaco#palette = lightline#colorscheme#fill(s:p)
